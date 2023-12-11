@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <section class="row">
+        <div class="col-3 sidebar bg-dark text-light">
+            <h4>Jots: <span id="notes-count">0</span></h4>
+            <section id="notes-list" class="row">
+
+            </section>
+            <form class="row" id="create-note-form" onsubmit="app.jotController.createNote()">
+                <div class="col=12 mb-3">Add Item
+                    <input type="text" id="note-title" name="title" class="form-control" placeholder="Create Note"
+                        required>
+                </div>
+                <div class="col-4 mb-3">
+                    <input type="color" id="note-color" name="color" class="form-control form-control-color">
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-add-note" title="create new note"><i
+                        class="mdi mdi-file-plus"></i>+ add</button>
+            </form>
+
+        </div>
+
+        <div class="col-9">
+            <div class="row justify-content-center" id="active-note-content">
+                <div class="col-4">Choose Note</div>
+            </div>
+        </div>
+    </section>
+</div>
