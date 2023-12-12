@@ -13,14 +13,14 @@ class ObservableAppState extends EventEmitter {
       body: 'Help I am freaking out',
       color: '#ffeb3b',
       updatedAt: '12/7/2023',
-      createdAt: '${this.date}'
+      createdAt: '12/7/2023'
     }),
     new Note({
       title: 'Sample Note 2',
       body: 'This is the second sample note',
       color: '#f44336',
       updatedAt: '12/7/2023',
-      createdAt: 'todays date'
+      createdAt: '12/7/2023'
     }),
   ];
   /** @type {Note} */

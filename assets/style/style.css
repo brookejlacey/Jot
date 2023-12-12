@@ -7,13 +7,10 @@
 
 #notes-count {
     display: block;
-    /* Make the count span display as block for better spacing */
+
 }
 
-/* General form control styles */
-.form-control {
-    margin-bottom: 10px;
-}
+
 
 /* Styles for the color picker */
 .form-control-color {
@@ -78,7 +75,7 @@
     color: #777;
 }
 
-/* Main content area styles */
+
 #active-note-content,
 #note-body {
     padding: 20px;

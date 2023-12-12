@@ -5,10 +5,10 @@
             <section id="notes-list" class="row">
 
             </section>
-            <form class="row" id="create-note-form" onsubmit="app.jotController.createNote()">
+            <form class="row" id="create-note-form" onsubmit="app.JotController.createNote()">
                 <div class="col=12 mb-3">Add Item
                     <input type="text" id="note-title" name="title" class="form-control" placeholder="Create Note"
-                        required>
+                        required minlength="3" maxlength="15">
                 </div>
                 <div class="col-4 mb-3">
                     <input type="color" id="note-color" name="color" class="form-control form-control-color">
